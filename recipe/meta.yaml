@@ -27,9 +27,9 @@ requirements:
     - hdbscan >=0.8.36
     - numpy >=1.24.2
     - pillow >=10.3.0
+    - python-xxhash >=3.3
     - scipy >=1.10
     - scikit-learn >=1.2.1
-    - xxhash >=3.3
 
 test:
   imports:
