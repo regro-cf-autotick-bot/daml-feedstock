@@ -1,6 +1,6 @@
 {% set name = "daml" %}
-{% set version = "0.52.0" %}
-{% set sha256 = "4f90b69e3e6686ee82a83bf86c9bc5befd36824ce5f431d4beed540484fa64af" %}
+{% set version = "0.54.0" %}
+{% set sha256 = "411090eb25535a1f8264314c8b07f9c2e8e075dc25f8dc288f4fb749a9bcd6e9" %}
 
 package:
   name: "{{ name|lower }}"
@@ -24,9 +24,12 @@ requirements:
 
   run:
     - python >=3.8.1, <3.12
-    - numpy
-    - scipy
-    - scikit-learn
+    - hdbscan >=0.8.36
+    - numpy >=1.24.2
+    - pillow >=10.3.0
+    - python-xxhash >=3.3
+    - scipy >=1.10
+    - scikit-learn >=1.2.1
 
 test:
   imports:
