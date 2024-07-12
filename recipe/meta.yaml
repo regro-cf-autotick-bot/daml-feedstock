@@ -1,6 +1,6 @@
 {% set name = "daml" %}
-{% set version = "0.55.0" %}
-{% set sha256 = "48484f244104244d519487f047b7647ff243126679d37ca770e0d17b1dc33bb7" %}
+{% set version = "0.56.0" %}
+{% set sha256 = "c25181c1b1adcc6bb80d0fc0ef85196cba6396833b909762f9bcfc9b6723423a" %}
 
 package:
   name: "{{ name|lower }}"
